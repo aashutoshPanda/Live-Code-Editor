@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Live Editor	</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		
+	</head>
+
+	<body>
+		<div id ="header">
+			
+			<div id="logo"> Live Editor </div>
+			<div id="ButtonContainer">
+				<div class="toggleButtons active" id="html">HTML</div>
+				<div class="toggleButtons" id="css">CSS</div>
+				<div class="toggleButtons" id="javascript">JavaScript</div>
+				<div class="toggleButtons active" id="Output">Output</div>
+			</div>
+
+		</div>
+		<div id="bodyContainer">
+			<textarea id="htmlpanel" class="panel "><h2 id="id1"> hello </h2></textarea>
+			<textarea id="csspanel" class="panel hidden">h2{color:blue;}</textarea>
+			<textarea id="javascriptpanel" class="panel hidden">document.getElementById("id1").innerHTML=;</textarea>
+
+
+		</div>
+		<iframe class="panel" id="outputpanel">
+			
+		</iframe>
+		
+		<script type="text/javascript" src="javaScript.js"></script>
+
+	</body>
+</html>
