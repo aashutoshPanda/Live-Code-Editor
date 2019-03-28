@@ -7,6 +7,7 @@
 				
 				function(){
 					$(this).addClass("highlightedButtons");
+					$(this).css( 'cursor', 'pointer' );
 			
 				},function(){
 					$(this).removeClass("highlightedButtons")
