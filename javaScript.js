@@ -1,7 +1,7 @@
 	function update(){
 				$("iframe").contents().find("html").html("<html><head><style type='text/css'>"+$("#csspanel").val()+"</style></head><body>"+$(htmlpanel).val()+"</body></html>");
 				
-				document.getElementById("outputpanel").contentWindow.eval($("#javascriptpanel").val());
+// 				document.getElementById("outputpanel").contentWindow.eval($("#javascriptpanel").val());
 			}
 			$(".toggleButtons").hover(
 				
