@@ -11,4 +11,7 @@ Similar to codepen.io
 # Demo -
 https://aashutoshpanda.github.io/Live-Code-Editor/
 
-  
+Installation Instructions
+- `git clone https://github.com/aashutoshPanda/Live-Code-Editor.git`
+- open the "Live Editor.html" file
+
